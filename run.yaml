@@ -1,0 +1,14 @@
+eval_setting: RO_RS
+training_neg_sample_num: 0
+metrics: ['MAE', 'RMSE']
+valid_metric: RMSE
+
+LABEL_FIELD: rating
+
+learning_rate: 0.001
+weight_decay: 0.001
+
+additional_feat_suffix: [uiu, ui_ca_iu, ui_ci_iu, iui, i_ca_i, i_ci_i]
+benchmark_filename: [train, valid, test]
+load_col: ~
+fields_in_same_space: [[user_id, uiu, ui_ca_iu, ui_ci_iu], [item_id, iui, i_ca_i, i_ci_i]]

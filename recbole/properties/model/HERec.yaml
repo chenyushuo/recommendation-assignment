@@ -1,0 +1,5 @@
+meta_path_embedding_size: 64
+fused_user_embedding_size: 64
+fused_item_embedding_size: 64
+embedding_size: 64
+fusion_function: sl
