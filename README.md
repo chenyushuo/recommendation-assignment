@@ -2,7 +2,7 @@
 
 Implementation of HeRec and its extension HGTRec via RecBole.
 
-[[HeRec.py]](recbole/model/general_recommender/herec.py) [[HGTRec.py]](recbole/model/general_recommender/hgtrec.py)
+[[HeRec.py](recbole/model/general_recommender/herec.py)] [[HGTRec.py](recbole/model/general_recommender/hgtrec.py)]
 
 ## Requirements
 
