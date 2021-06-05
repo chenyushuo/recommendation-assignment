@@ -1,0 +1,18 @@
+eval_setting: RO_RS
+training_neg_sample_num: 0
+metrics: ['MAE', 'RMSE']
+valid_metric: RMSE
+
+LABEL_FIELD: rating
+
+learning_rate: 0.001
+
+additional_feat_suffix: [bca, bci]
+benchmark_filename: [train, valid, test]
+load_col: ~
+fields_in_same_space: [[item_id, bca_item_id, bci_item_id]]
+type_seq: [user_id, item_id, ca_id, ci_id]
+hin_schema:
+  inter: [user_id, item_id]
+  bca: [bca_item_id, ca_id]
+  bci: [bci_item_id, ci_id]

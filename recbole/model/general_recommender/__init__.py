@@ -23,3 +23,4 @@ from recbole.model.general_recommender.recvae import RecVAE
 from recbole.model.general_recommender.slimelastic import SLIMElastic
 from recbole.model.general_recommender.spectralcf import SpectralCF
 from recbole.model.general_recommender.herec import HERec
+from recbole.model.general_recommender.hgtrec import HGTRec

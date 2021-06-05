@@ -1,0 +1,5 @@
+embedding_size: 64
+hidden_size: 64
+gnn_type: hgt
+n_layers: 4
+n_heads: 4
